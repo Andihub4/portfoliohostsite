@@ -1,0 +1,136 @@
+/* -------------------- */
+/* RESET & FOUNDATION  */
+/* -------------------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 🔑 Entire site scales from here */
+  font-size: clamp(14px, 1.2vw, 18px);
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  
+}
+
+/* -------------------- */
+/* NAVIGATION           */
+/* -------------------- */
+
+.menu {
+  display: flex;
+  width: 100%;
+  background: rgba(255, 255, 255, 0);
+}
+
+.menu-btn {
+  flex: 1 1 min(160px, 25%);
+  padding: clamp(0.6rem, 2vw, 1rem);
+  font-size: clamp(1rem, 2vw, 1rem);
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+.hero {
+  width: 100%;
+  padding: 1%;
+  background: url(image.jpg);
+  
+}
+#search {
+  border: 1.5px solid white;
+  border-radius: 10px;
+  padding: 5%;
+  margin-left: 3%;
+}
+#heroes {
+  color: white;
+  padding-top: 17%;
+  font-size: 450%;
+  margin-left: 2%;
+}
+.start {
+  background: #29B37F;
+  color: white;
+  border: 2px solid #29B37F;
+  border-radius: 5px;
+  padding: 1%;
+  margin-left: 3%;
+}
+
+#plans {
+  color: #29B37F;
+  background: white;
+  border: 0px solid #29B37F;
+  padding-bottom: 10%;
+  position: relative;
+  top: -50px; 
+  font-size: 150%;
+  border-radius: 5px;
+}
+.plan_text {
+  color: black;
+  font-size: 125%;
+}
+.continue {
+  border: 0.1px solid #29B37F;
+  background: #29B37F;
+  color: white;
+  border-radius: 5px;
+  padding: 3%;
+}
+.subox {
+  background: rgba(91, 92, 110, 1);
+width: 96%;
+margin-left: 2%;
+color: white;
+padding: 5%;
+border-radius: 5px;
+
+  
+}
+.intro {
+  font-size: 450%;
+}
+.test {
+  margin-left: 45%;
+  background: #29B37F;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 2%;
+  
+}
+.footer {
+  padding-bottom: 40%;
+  padding-top: 2% ;
+  background: rgba(10, 13, 36, 1);
+  color: white;
+}
+.s1{
+margin-left: 8%;  
+}
+.s2{
+  margin-left: 35%;
+}
+.s3{
+  margin-left: 33%;
+}
+
+.products {
+  padding: 3%;
+  background: red;
+  max-width: 10%;
+}
