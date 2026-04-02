@@ -17,6 +17,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: #f5f7fa;
   color: #222;
+  max-width: 100%;
   
 }
 
@@ -54,7 +55,7 @@ body {
   border: 1.5px solid white;
   border-radius: 10px;
   padding: 5%;
-  margin-left: 3%;
+  margin-left: 1%;
 }
 #heroes {
   color: white;
