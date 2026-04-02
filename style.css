@@ -45,7 +45,7 @@ body {
 
 .hero {
   width: 100%;
-  padding: 1%;
+  padding: 0%;
   background: url(image0.jpg);
   
 }
@@ -120,10 +120,10 @@ border-radius: 5px;
   color: white;
 }
 .s1{
-margin-left: 8%;  
+margin-left: 5%;  
 }
 .s2{
-  margin-left: 35%;
+  margin-left: 32%;
 }
 .s3{
   margin-left: 33%;
